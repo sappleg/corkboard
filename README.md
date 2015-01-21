@@ -1,2 +1,2 @@
-# cork-board
-List of wines drank and travels spent with Chloe Johansen
+# corkboard
+A list of wines drank and adventures taken with Chloe Johansen
