@@ -3,6 +3,10 @@ class CreateVisits < ActiveRecord::Migration
     create_table :visits do |t|
       t.string :restaurant
       t.string :image
+      t.string :wine
+      t.date :date
+      t.float :latitude
+      t.float :longitude
 
       t.timestamps
     end

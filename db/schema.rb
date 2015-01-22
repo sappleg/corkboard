@@ -19,14 +19,10 @@ ActiveRecord::Schema.define(version: 20150121023321) do
   create_table "visits", force: true do |t|
     t.string   "restaurant"
     t.string   "image"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "wines", force: true do |t|
-    t.string   "title"
-    t.text     "description"
-    t.string   "image"
+    t.string   "wine"
+    t.date     "date"
+    t.float    "latitude"
+    t.float    "longitude"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
